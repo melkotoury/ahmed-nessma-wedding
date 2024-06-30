@@ -3,14 +3,7 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "title": "Ahmed & Nessma Wedding",
-        "navLinks": [
-            {
-                "type": "Link",
-                "label": "About",
-                "url": "/about",
-                "underline": "hover"
-            }
-        ]
+        "navLinks": []
     },
     "footer": {
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/).",
