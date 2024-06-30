@@ -8,12 +8,6 @@ sections:
     text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n"
     actions:
       - type: Button
-        label: Start Building
-        url: 'https://docs.netlify.com/visual-editor/get-started/'
-        size: large
-        variant: contained
-        color: primary
-      - type: Button
         label: Read the Docs
         url: 'https://docs.netlify.com/visual-editor/overview/'
         size: large
