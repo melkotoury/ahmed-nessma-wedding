@@ -12,7 +12,7 @@ sections:
       url: /images/here.jpg
       altText: Hero section image
   - type: CardsSection
-    title: Share your memory
+    title: E-vites
     subtitle: Section subtitle here
     items:
       - type: Card
