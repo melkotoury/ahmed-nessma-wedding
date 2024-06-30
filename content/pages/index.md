@@ -5,10 +5,7 @@ sections:
   - type: HeroSection
     title: Ahmed & Nessma
     subtitle: CALL FOR ALL MEMORY MAKERS!
-    text: >+
-      Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-      Lorem ipsum
-
+    text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n"
     actions:
       - type: Button
         label: Start Building
