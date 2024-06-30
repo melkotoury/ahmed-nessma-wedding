@@ -3,7 +3,7 @@ type: Page
 title: Share Your Memory
 sections:
   - type: HeroSection
-    title: An Empty Page
+    title: Share your Memory
     subtitle: The section subtitle
     text: >-
       Add more sections by hovering above or below this one and clicking '+ Add
