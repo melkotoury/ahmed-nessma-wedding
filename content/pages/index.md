@@ -13,7 +13,7 @@ sections:
       altText: Hero section image
   - type: CardsSection
     title: E-vites
-    subtitle: Section subtitle here
+    subtitle: Please scan our E-vites
     items:
       - type: Card
         title: First Card Title
