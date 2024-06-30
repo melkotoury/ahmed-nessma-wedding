@@ -4,7 +4,7 @@ type: Page
 sections:
   - type: HeroSection
     title: Ahmed & Nessma
-    subtitle: Ahmed & Nessma Wedding
+    subtitle: CALL FOR ALL MEMORY MAKERS!
     text: >+
       Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
       Lorem ipsum
