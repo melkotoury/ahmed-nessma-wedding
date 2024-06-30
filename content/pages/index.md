@@ -4,7 +4,7 @@ type: Page
 sections:
   - type: HeroSection
     title: Ahmed & Nessma
-    subtitle: LOREM IPSUM LOREM IPSUM
+    subtitle: Ahmed & Nessma Wedding
     text: >+
       Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
       Lorem ipsum
