@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     title: Ahmed & Nessma
     subtitle: CALL FOR ALL MEMORY MAKERS!
-    text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n"
+    text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n\n\nحبايبنا الحلوين شكرا انكم جيتو و كملتو فرحتنا اليوم مكنش هيكمل غير بيكم مستنين رسايلكم و صوركم تكون ذكرى حلوه نبدا بيها رحلتنا \_\n\n"
     actions: []
     image:
       type: Image
