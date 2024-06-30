@@ -12,7 +12,7 @@ sections:
       url: /images/here.jpg
       altText: Hero section image
   - type: CardsSection
-    title: Cards Section Component
+    title: Share your memory
     subtitle: Section subtitle here
     items:
       - type: Card
