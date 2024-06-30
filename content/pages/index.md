@@ -12,7 +12,7 @@ sections:
         url: /share-your-memory
         size: large
         variant: outlined
-        color: inherit
+        color: primary
     image:
       type: Image
       url: /images/here.jpg
