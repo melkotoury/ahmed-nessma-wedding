@@ -6,13 +6,7 @@ sections:
     title: Ahmed & Nessma
     subtitle: CALL FOR ALL MEMORY MAKERS!
     text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n"
-    actions:
-      - type: Button
-        label: Read the Docs
-        url: 'https://docs.netlify.com/visual-editor/overview/'
-        size: large
-        variant: outlined
-        color: primary
+    actions: []
     image:
       type: Image
       url: /images/here.jpg
