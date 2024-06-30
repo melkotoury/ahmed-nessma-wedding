@@ -11,7 +11,7 @@ sections:
         label: Share your memory
         url: /share-your-memory
         size: large
-        variant: outlined
+        variant: contained
         color: primary
     image:
       type: Image
