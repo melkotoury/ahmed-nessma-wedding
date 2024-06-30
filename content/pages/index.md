@@ -10,7 +10,7 @@ sections:
       - type: Button
         label: Share your memory
         url: /share-your-memory
-        size: large
+        size: medium
         variant: outlined
         color: primary
     image:
