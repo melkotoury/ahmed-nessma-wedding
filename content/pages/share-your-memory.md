@@ -4,7 +4,7 @@ title: Share Your Memory
 sections:
   - type: HeroSection
     title: Share your Memory
-    subtitle: The section subtitle
+    subtitle: Please Share your memory
     text: >-
       Add more sections by hovering above or below this one and clicking '+ Add
       Section', or using the sidebar.
