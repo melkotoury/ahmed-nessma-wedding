@@ -1,12 +1,11 @@
 import * as React from 'react';
 import type * as types from 'types';
-import { Button } from '../../atoms/Button';
 
 import MuiBox from '@mui/material/Box';
 
 import MuiGrid from '@mui/material/Grid';
 import MuiTypography from '@mui/material/Typography';
-import { TextField, TextareaAutosize } from '@mui/material';
+import { Button, TextField, TextareaAutosize } from '@mui/material';
 import { title } from 'process';
 
 export type Props = types.FormSection & types.StackbitFieldPath;
