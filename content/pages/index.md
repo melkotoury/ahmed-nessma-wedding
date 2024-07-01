@@ -18,7 +18,7 @@ sections:
         color: primary
     image:
       type: Image
-      url: /images/here.jpg
+      url: /images/ahmed-nessma.jpg
       altText: Hero section image
   - type: CardsSection
     title: E-vites
