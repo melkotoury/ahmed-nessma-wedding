@@ -5,7 +5,10 @@ sections:
   - type: HeroSection
     title: Ahmed & Nessma
     subtitle: CALL FOR ALL MEMORY MAKERS!
-    text: "Your snapshots will be the touch of magic to our forever story that we will treasure and cherish for the rest of our lives \U0001F495.\_\n\n\n\nحبايبنا الحلوين شكرا انكم جيتو و كملتو فرحتنا اليوم مكنش هيكمل غير بيكم مستنين رسايلكم و صوركم تكون ذكرى حلوه نبدا بيها رحلتنا \_\n\n"
+    text: >+
+      We're so grateful to be surrounded by so much love. Thank you for sharing
+      a memory of this special day with us
+
     actions:
       - type: Button
         label: Share your memory
@@ -15,7 +18,7 @@ sections:
         color: primary
     image:
       type: Image
-      url: /images/here.jpg
+      url: /images/ahmed-nessma.jpg
       altText: Hero section image
   - type: CardsSection
     title: E-vites
