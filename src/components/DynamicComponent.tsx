@@ -4,7 +4,7 @@ import type { Props as CardsSectionProps } from './sections/CardsSection';
 import type { Props as HeroSectionProps } from './sections/HeroSection';
 import type { Props as FormSectionProps } from './sections/FormSection';
 
-export type Props = CardsSectionProps | HeroSectionProps;
+export type Props = CardsSectionProps | HeroSectionProps | FormSectionProps;
 
 type ComponentsMap = {
     [P in Props as P['type']]: ComponentType<P>;

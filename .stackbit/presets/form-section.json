@@ -1,0 +1,31 @@
+{
+    "model": "FormSection",
+    "presets": [
+        {
+            "label": "Forms Section",
+            "thumbnail": "images/cards-section.png",
+            "data": {
+                "title": "Forms Section Title",
+                "subtitle": "The section subtitle",
+                "items": [
+                    {
+                        "type": "Form",
+                        "title": "First Item Title",
+                        "name": "John Doe",
+                        "message": "Type any message",
+                        "file": {
+                            "type": "File",
+                            "altText": "Upload File"
+                        },
+                        "actions": [
+                            {
+                                "type": "Button",
+                                "label": "Share your thoughts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
