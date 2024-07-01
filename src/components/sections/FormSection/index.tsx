@@ -1,7 +1,6 @@
 import * as React from 'react';
 import type * as types from 'types';
 import { Button } from '../../atoms/Button';
-import { Markdown } from '../../atoms/Markdown';
 
 import MuiBox from '@mui/material/Box';
 
@@ -43,7 +42,7 @@ const FormSectionItem: React.FC<types.Form & types.StackbitFieldPath & { titleTa
         <form name={title} method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value={title} />
             <TextField label="Name" name="name" fullWidth />
-            <TextareaAutosize label="Message" name="message" minRows={3} placeholder="Enter your message..." fullWidth />
+            <TextareaAutosize maxRows={4} aria-label="maximum height" placeholder="Write your message here" />
             <input type="file" name="file" accept=".pdf,.doc,.docx" />
             <Button type="submit" variant="contained" color="primary">
                 Share Your Memory
