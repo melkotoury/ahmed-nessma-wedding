@@ -16,6 +16,7 @@
         "jsx": "preserve",
         "incremental": true,
         "baseUrl": ".",
+        "types": ["@stackbit/cms-git"],
         "paths": {
             "types": ["./src/types/index.ts"]
         }
