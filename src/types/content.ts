@@ -32,6 +32,13 @@ export type Button = {
     color?: 'inherit' | 'primary' | 'secondary';
 };
 
+export type Form = {
+    type: 'Form';
+    name: string;
+    message: string;
+    file: File;
+};
+
 export type Card = {
     type: 'Card';
     title?: string;
