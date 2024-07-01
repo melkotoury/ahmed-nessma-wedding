@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic';
 import type { ComponentType, FC } from 'react';
 import type { Props as CardsSectionProps } from './sections/CardsSection';
 import type { Props as HeroSectionProps } from './sections/HeroSection';
+import type { Props as FormSectionProps } from './sections/FormSection';
 
 export type Props = CardsSectionProps | HeroSectionProps;
 
@@ -12,7 +13,8 @@ type ComponentsMap = {
 const componentsMap: ComponentsMap = {
     // sections
     CardsSection: dynamic(() => namedComponent(import('./sections/CardsSection'), 'CardsSection')),
-    HeroSection: dynamic(() => namedComponent(import('./sections/HeroSection'), 'HeroSection'))
+    HeroSection: dynamic(() => namedComponent(import('./sections/HeroSection'), 'HeroSection')),
+    FormSection: dynamic(() => namedComponent(import('./sections/FormSection'), 'FormSection')),
 };
 
 export const DynamicComponent: FC<Props> = (props) => {

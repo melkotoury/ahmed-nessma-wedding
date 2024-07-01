@@ -1,7 +1,7 @@
 export type Document = Config | Page;
 export type DocumentTypeNames = 'Config' | 'Page';
 
-export type Section = CardsSection | HeroSection;
+export type Section = CardsSection | HeroSection | FormSection;
 
 /** Document types */
 export type Config = {
@@ -32,13 +32,6 @@ export type Button = {
     color?: 'inherit' | 'primary' | 'secondary';
 };
 
-export type Form = {
-    type: 'Form';
-    name: string;
-    message: string;
-    file: File;
-};
-
 export type Card = {
     type: 'Card';
     title?: string;
@@ -52,6 +45,14 @@ export type CardsSection = {
     title?: string;
     subtitle?: string;
     items?: Card[];
+};
+
+export type FormSection = {
+    type: 'FormSection';
+    name: string;
+    message: string;
+    file: File;
+    actions: Button[];
 };
 
 export type Footer = {
