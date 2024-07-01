@@ -46,13 +46,19 @@ export type CardsSection = {
     subtitle?: string;
     items?: Card[];
 };
-
-export type FormSection = {
-    type: 'FormSection';
+export type Form = {
+    type: 'Form';
     name: string;
     message: string;
     file: File;
-    actions: Button[];
+    actions?: Button[];
+};
+
+export type FormSection = {
+    type: 'FormSection';
+    title?: string;
+    subtitle?: string;
+    items?: Form[];
 };
 
 export type Footer = {
